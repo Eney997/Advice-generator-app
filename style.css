@@ -83,6 +83,7 @@ body {
     justify-content: center;
     place-items: center;
     margin-top: 20px;
+    cursor: pointer;
 }
 .fanji:hover:active {
     transition: 0.4s;
