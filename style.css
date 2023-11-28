@@ -88,7 +88,7 @@ body {
     cursor: pointer;
 }
 .fanji:hover:active {
-    transition: 0.09s;
+    transition: 0.1s;
     transform: rotate(180deg);
     outline: none;
     border: none;
