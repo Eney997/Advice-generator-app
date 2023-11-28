@@ -10,7 +10,7 @@ function gavparsotData(){
         const gela = Data.slip.advice;
         const  gela2 = Data.slip.id ;
 
-        text.innerHTML = `${gela}`
+        text.innerHTML = `"${gela}"`
         sharp.innerHTML = `#${gela2}`
     })
     .catch(error =>{
