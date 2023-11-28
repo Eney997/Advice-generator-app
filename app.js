@@ -2,9 +2,9 @@ const sharp = document.querySelector('.sharp')
 const text = document.querySelector('.text')
 const kletka = document.querySelector('.kletka')
 
-kletka.addEventListener('click', avigotData)
+kletka.addEventListener('click', gavparsotData)
 
-function avigotData(){
+function gavparsotData(){
     fetch('https://api.adviceslip.com/advice').then(response => response.json())
     .then(Data => {
         const gela = Data.slip.advice;
