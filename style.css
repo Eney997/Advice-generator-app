@@ -31,9 +31,8 @@ body {
     justify-content: center;
     place-items: center;
     column-gap: 16px;
-    margin-top: 120px;
-    position: absolute;
     margin-top: 190px;
+    position: absolute;
 }
 .leftline {
     width: 122px;
