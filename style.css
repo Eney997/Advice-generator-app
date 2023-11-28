@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Manrope', sans-serif;
+    background: var(--Dark-Blue, #202733);
+    display: grid;
+    place-items: center;
+}
+.container {
+    width: 343px;
+    height: 315px;
+    border-radius: 10px;
+    background: var(--Dark-Grayish-Blue, #313A48);
+    box-shadow: 30px 50px 80px 0px rgba(0, 0, 0, 0.10);
+    display: grid;
+    place-items: center;
+    margin-top: 120px;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    column-gap: 20px;
+}
+.listen {
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    column-gap: 16px;
+    margin-top: 120px;
+    position: absolute;
+    margin-top: 190px;
+}
+.leftline {
+    width: 122px;
+    height: 1px;
+    flex-shrink: 0;
+    background: var(--Grayish-Blue, #4F5D74);
+}
+.rightline {
+    width: 122px;
+    height: 1px;
+    flex-shrink: 0;
+    background: var(--Grayish-Blue, #4F5D74);
+}
+.advice {
+    color: var(--Neon-Green, #53FFAA);
+    text-align: center;
+    font-family: Manrope;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 3.457px;
+    margin-top: -40px;
+}
+.sharp {
+    color: var(--Neon-Green, #53FFAA);
+    text-align: center;
+    font-family: Manrope;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 3.457px;
+    margin-top: -40px;
+}
+.text {
+    width: 295px;
+    color: var(--Light-Cyan, #CEE3E9);
+    text-align: center;
+    font-family: Manrope;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: -0.257px;
+    position: relative;
+    margin-top: -150px;
+}
+.fanji {
+    position: absolute;
+    margin-top: 317px;
+    cursor: pointer;
+}
+.fanji:hover:active {
+    transition: 0.09s;
+    transform: rotate(180deg);
+    outline: none;
+    border: none;
+}

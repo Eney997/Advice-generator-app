@@ -1,0 +1,32 @@
+@media (width>1440px){
+    .container {
+        margin-top: 223px;
+        width: 540px;
+        height: 332px;
+        flex-shrink: 0;
+    }
+    .leftline {
+        width: 196px;
+        height: 1px;
+    }
+    .rightline {
+        width: 196px;
+        height: 1px;
+    }
+    .advice {
+        margin-top: -50px;
+        font-size: 13px;
+    }
+    .sharp {
+        margin-top: -50px;
+        font-size: 13px;
+    }
+    .text {
+        margin-top: -170px;
+        font-size: 28px;
+        width: 444px;
+    } 
+    .fanji {
+        margin-top:331px ;
+    }
+}
